@@ -1,19 +1,32 @@
 import React from 'react'
 import pic from "../assets/pic.png"
+
 function Bio() {
   return (
-    <div className='mt-3 flex flex-col md:flex-row md:h-[80vh]  px-2 md:px-10'>
-    <div className='w-full h-full md:w-3/5 text-slate-800 md:text-left text-center'>
-      <h1 className='md:text-6xl text-4xl md:mt-20'>Sankalp Sahani</h1>
-      <h3 className='mt-2 mb-6 poppins-bold md:text-5xl text-4xl bg-gradient-to-r from-slate-800 to-slate-500 w-[89%] bg-clip-text text-transparent'>Full Stack Developer</h3>
-      <p className='text-lg poppins-semibold'>I am a seasoned Full Stack Developer and Software Engineer with a robust understanding of web development and advanced problem-solving skills. Currently, I am immersing myself in the dynamic field of web development, continually expanding my expertise and exploring new technologies to enhance my capabilities.</p>
-    </div>
-    <div className='flex items-center justify-center w-full  h-full md:w-2/5'>
-      <div className='h-[40%] w-[90%] md:h-[80%] md:w-[80%] bg-black/45 backdrop-blur-3xl mt-5 md:-mt-5 rounded-xl '>
-      <img src={pic} className='backdrop-brightness-75 backdrop-contrast-75 rounded-lg'/>
+    <div className='mt-3 flex flex-col md:flex-row md:h-[80vh] px-2 md:px-10'>
+      <div className='w-full h-full md:w-3/5 text-indigo-900 md:text-left text-center'>
+        <h1 className='md:text-6xl text-4xl md:mt-20 font-bold'>Sankalp Sahani</h1>
+        <h3 className='mt-2 mb-6 poppins-bold md:text-5xl text-4xl bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent'>
+          Full Stack Developer
+        </h3>
+        <p className='text-lg poppins-semibold leading-relaxed text-gray-700 max-w-2xl mx-auto md:mx-0'>
+          I am a seasoned Full Stack Developer and Software Engineer with a robust understanding of web development and advanced problem-solving skills. Currently, I am immersing myself in the dynamic field of web development, continually expanding my expertise and exploring new technologies to enhance my capabilities.
+        </p>
+        <div className='mt-6'>
+          <a href='#' className='inline-block px-6 py-2 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors shadow-md'>
+            View Resume
+          </a>
+        </div>
+      </div>
+      <div className='flex items-center justify-center w-full h-full md:w-2/5 mt-8 md:mt-0'>
+        <div className='h-[40%] w-[90%] md:h-[80%] md:w-[80%] bg-gradient-to-br from-indigo-300/20 to-blue-500/20 backdrop-blur-sm mt-5 md:-mt-5 rounded-xl shadow-lg overflow-hidden'>
+        <img src="https://media-hosting.imagekit.io/bf0a3b70e1024cbf/erasebg-transformed.png?Expires=1840116280&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0QPSzQZIRphLf9wGxaQ1YM589xpWo801OiZa-N-S-9v6gcy1ESX~ky1Oac7ZoZaaIRBpUfujx4F0~qFMd67KTGF8MdUvoib2DuqVE-D-EkTs~kLHL7iBnDnApuaV1qfbB2UHnI-JxKZm8CS6WqQG5jaUvHnEp~VhuXbx-oNTbxub0OkcFHyqPoegtnIpJHhnT7n0FQXX2X4SgBiUBxazPKvFADUA~Gt4l303NFBAtNarlon0q-srR-0HTSq4i7Xifyynygtpa38I~U7EvTyaa1VnsZ4Ji~zpofAVuNWZaAYnGRegnTHOMBdYcVhX-DJNdFG85p6kKsvpqiCJTREeow__" 
+     class="rounded-lg object-cover w-full h-full transform hover:scale-105 transition-transform duration-300" 
+     alt="Profile" />
+
+        </div>
       </div>
     </div>
-  </div>
   )
 }
 

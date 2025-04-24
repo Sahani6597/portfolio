@@ -4,16 +4,40 @@ import Bio from "./component/bio";
 import Tech from "./component/tech";
 import Project from "./component/Projects";
 import Contact from "./component/contact";
+
 const App = () => {
   return (
-   <>
-   <div className='fixed top-0 min-h-[100vh] w-[100%] bg-gradient-to-b from-slate-300 to-slate-500 -z-10'/>
-   <Navbar/>
-   <Bio/>
-   <Tech/>
-   <Project/>
-   <Contact/>
-   </>
+    <div className="relative font-sans">
+      {/* Background gradient */}
+      <div className="fixed top-0 left-0 min-h-screen w-full bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-100 -z-10" />
+      
+      {/* Main content container */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Navbar />
+        
+        <main className="py-6">
+          <section className="mb-16">
+            <Bio />
+          </section>
+          
+          <section className="mb-16">
+            <Tech />
+          </section>
+          
+          <section className="mb-16">
+            <Project />
+          </section>
+          
+          <section className="mb-16">
+            <Contact />
+          </section>
+        </main>
+        
+        <footer className="py-6 text-center text-sm text-indigo-700">
+          <p>© {new Date().getFullYear()} Sankalp Sahani. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
   );
 };
 
