@@ -12,11 +12,9 @@ function Bio() {
           DevOps and Cloud Engineer / Full Stack Developer
         </h3>
         <p className='text-lg poppins-semibold leading-relaxed text-gray-400 max-w-4xl mx-auto mb-8'>
-         DevOps and Cloud Engineer with hands-on experience in containerization, CI/CD automation, and scalable application deployment. Skilled in Docker, Kubernetes, and GitHub Actions, with strong foundations in networking and system administration. Proficient in Infrastructure as Code (Terraform) and building secure, highly available systems on AWS and Azure.
-
-Alongside DevOps, I have strong experience as a Full Stack Developer, working with React, React Native, Node.js, and MongoDB to build scalable web and mobile applications. Experienced in designing RESTful APIs, handling authentication systems, and developing end-to-end features from frontend UI to backend services.
-
-I focus on integrating development with DevOps practices by implementing CI/CD pipelines, optimizing application performance, and ensuring smooth deployment workflows. Passionate about building efficient, production-ready systems that combine clean code with reliable infrastructure.
+       DevOps and Cloud Engineer with experience in containerization, CI/CD automation, and scalable deployments. Skilled in Docker, Kubernetes, GitHub Actions, and Terraform, with strong foundations in networking and system administration. Experienced in building secure, highly available systems on AWS and Azure.
+</br>
+Also a Full Stack Developer with hands-on experience in React, React Native, Node.js, and MongoDB, building end-to-end applications and integrating them with efficient deployment pipelines.
         </p>
         
         {/* Contact Info */}
