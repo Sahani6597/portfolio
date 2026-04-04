@@ -1,29 +1,67 @@
 import React from 'react'
-import pic from "../assets/pic.png"
+import { FaPhoneAlt, FaEnvelope, FaGlobe, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Bio() {
   return (
-    <div className='mt-3 flex flex-col md:flex-row md:h-[80vh] px-2 md:px-10'>
-      <div className='w-full h-full md:w-3/5 text-indigo-900 md:text-left text-center'>
-        <h1 className='md:text-6xl text-4xl md:mt-20 font-bold'>Sankalp Sahani</h1>
-        <h3 className='mt-2 mb-6 poppins-bold md:text-5xl text-4xl bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent'>
-          Full Stack Developer
+    <div className='mt-0 px-4 md:px-10 py-8'>
+      <div className='w-full text-white text-center'>
+        <h1 className='text-6xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent'>
+          Sankalp Sahani
+        </h1>
+        <h3 className='mt-4 mb-8 poppins-bold text-3xl md:text-4xl text-gray-300'>
+          DevOps and Cloud Engineer
         </h3>
-        <p className='text-lg poppins-semibold leading-relaxed text-gray-700 max-w-2xl mx-auto md:mx-0'>
-          I am a seasoned Full Stack Developer and Software Engineer with a robust understanding of web development and advanced problem-solving skills. Currently, I am immersing myself in the dynamic field of web development, continually expanding my expertise and exploring new technologies to enhance my capabilities.
+        <p className='text-lg poppins-semibold leading-relaxed text-gray-400 max-w-4xl mx-auto mb-8'>
+          DevOps and Cloud Engineer with hands-on experience in containerization, CI/CD automation, and scalable application deployment. Skilled in Docker, Kubernetes, and GitHub Actions with strong foundations in networking and system administration. Proficient in Infrastructure as Code (Terraform) and building secure, highly available systems on AWS and Azure.
         </p>
-        <div className='mt-6'>
-          <button href='#' className='inline-block px-6 py-2 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors shadow-md'>
-            View Resume
-          </button>
+        
+        {/* Contact Info */}
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 max-w-4xl mx-auto'>
+          <div className='flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-all duration-300'>
+            <FaPhoneAlt className='text-gray-300 text-xl' />
+            <div>
+              <h4 className='text-sm text-gray-500 font-medium'>Phone</h4>
+              <span className='text-white'>+91 93248 84523</span>
+            </div>
+          </div>
+          <div className='flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-all duration-300'>
+            <FaEnvelope className='text-gray-300 text-xl' />
+            <div>
+              <h4 className='text-sm text-gray-500 font-medium'>Email</h4>
+              <span className='text-white'>Sahani6597@gmail.com</span>
+            </div>
+          </div>
+          <div className='flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-all duration-300 md:col-span-2'>
+            <FaGlobe className='text-gray-300 text-xl' />
+            <div>
+              <h4 className='text-sm text-gray-500 font-medium'>Website</h4>
+              <a href='https://iamsahani.vercel.io' className='text-gray-300 hover:text-white transition-colors'>iamsahani.vercel.io</a>
+            </div>
+          </div>
+          <div className='flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-all duration-300'>
+            <FaGithub className='text-gray-300 text-xl' />
+            <a href='https://github.com/Sahani6597' className='text-gray-300 hover:text-white transition-colors'>
+              <div>
+                <h4 className='text-sm text-gray-500 font-medium'>GitHub</h4>
+                <span>github.com/Sahani6597</span>
+              </div>
+            </a>
+          </div>
+          <div className='flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-all duration-300'>
+            <FaLinkedin className='text-gray-300 text-xl' />
+            <a href='https://linkedin.com/in/sahani6597' className='text-gray-300 hover:text-white transition-colors'>
+              <div>
+                <h4 className='text-sm text-gray-500 font-medium'>LinkedIn</h4>
+                <span>linkedin.com/in/sahani6597</span>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className='flex items-center justify-center w-full h-full md:w-2/5 mt-8 md:mt-0'>
-        <div className='h-[40%] w-[90%] md:h-[80%] md:w-[80%] bg-gradient-to-br from-indigo-300/20 to-blue-500/20 backdrop-blur-sm mt-5 md:-mt-5 rounded-xl shadow-lg overflow-hidden'>
-        <img src="/profule.png" 
-     class="rounded-lg object-cover w-full h-full transform hover:scale-105 transition-transform duration-300" 
-     alt="Profile" />
-
+        
+        <div className='mt-8'>
+          <a href='#' className='inline-block px-8 py-3 bg-gradient-to-r from-gray-700 to-gray-600 text-white rounded-full font-semibold hover:from-gray-600 hover:to-gray-500 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105'>
+            View Resume
+          </a>
         </div>
       </div>
     </div>
