@@ -9,10 +9,14 @@ function Bio() {
           Sankalp Sahani
         </h1>
         <h3 className='mt-4 mb-8 poppins-bold text-3xl md:text-4xl text-gray-300'>
-          DevOps and Cloud Engineer
+          DevOps and Cloud Engineer / Full Stack Developer
         </h3>
         <p className='text-lg poppins-semibold leading-relaxed text-gray-400 max-w-4xl mx-auto mb-8'>
-          DevOps and Cloud Engineer with hands-on experience in containerization, CI/CD automation, and scalable application deployment. Skilled in Docker, Kubernetes, and GitHub Actions with strong foundations in networking and system administration. Proficient in Infrastructure as Code (Terraform) and building secure, highly available systems on AWS and Azure.
+         DevOps and Cloud Engineer with hands-on experience in containerization, CI/CD automation, and scalable application deployment. Skilled in Docker, Kubernetes, and GitHub Actions, with strong foundations in networking and system administration. Proficient in Infrastructure as Code (Terraform) and building secure, highly available systems on AWS and Azure.
+
+Alongside DevOps, I have strong experience as a Full Stack Developer, working with React, React Native, Node.js, and MongoDB to build scalable web and mobile applications. Experienced in designing RESTful APIs, handling authentication systems, and developing end-to-end features from frontend UI to backend services.
+
+I focus on integrating development with DevOps practices by implementing CI/CD pipelines, optimizing application performance, and ensuring smooth deployment workflows. Passionate about building efficient, production-ready systems that combine clean code with reliable infrastructure.
         </p>
         
         {/* Contact Info */}
