@@ -9,7 +9,7 @@ function Bio() {
           Sankalp Sahani
         </h1>
         <h3 className='mt-4 mb-8 poppins-bold text-3xl md:text-4xl text-gray-300'>
-          DevOps and Cloud Engineer / Full Stack Developer
+          DevOps Engineer / Full Stack Developer
         </h3>
         <p className='text-lg poppins-semibold leading-relaxed text-gray-400 max-w-4xl mx-auto mb-8'>
        DevOps and Cloud Engineer with experience in containerization, CI/CD automation, and scalable deployments. Skilled in Docker, Kubernetes, GitHub Actions, and Terraform, with strong foundations in networking and system administration. Experienced in building secure, highly available systems on AWS and Azure.
